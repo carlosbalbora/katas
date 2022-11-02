@@ -1,6 +1,6 @@
 # README
 
-Solution for fizzbuzz kata
+Solution for fizzbuzz kata [slides](https://docs.google.com/presentation/d/1wCeiYapA9qz8nkyBYbwisHrtKLXfIfWmTO6ZasEKXtk/edit?usp=sharing)
 
 ## Installation
 
