@@ -8,6 +8,8 @@ defmodule Fizzbuzz do
     |> Enum.join(" ")
   end
 
+  def play_number(num) when rem(num, 3) == 0, do: "fizz"
+
   def play_number(num) do
     to_string(num)
   end
