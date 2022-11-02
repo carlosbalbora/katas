@@ -8,6 +8,7 @@ defmodule Fizzbuzz do
     |> Enum.join(" ")
   end
 
+  def play_number(num) when rem(num, 3) == 0 and rem(num, 5) == 0, do: "fizzbuzz"
   def play_number(num) when rem(num, 3) == 0, do: "fizz"
   def play_number(num) when rem(num, 5) == 0, do: "buzz"
 
