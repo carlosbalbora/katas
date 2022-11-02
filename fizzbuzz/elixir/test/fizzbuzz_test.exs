@@ -15,7 +15,7 @@ defmodule FizzbuzzTest do
     end
 
     test "return same value when is 5", state do
-      assert Fizzbuzz.play(5) == "buzz"
+      assert Fizzbuzz.play_number(5) == "buzz"
     end
   end
 end
