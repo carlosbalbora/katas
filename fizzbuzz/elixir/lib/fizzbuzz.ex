@@ -9,6 +9,7 @@ defmodule Fizzbuzz do
   end
 
   def play_number(num) when rem(num, 3) == 0, do: "fizz"
+  def play(num) when rem(num, 5) == 0, do: "buzz"
 
   def play_number(num) do
     to_string(num)
