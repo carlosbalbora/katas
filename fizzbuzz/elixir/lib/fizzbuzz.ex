@@ -9,6 +9,6 @@ defmodule Fizzbuzz do
   end
 
   def play_number(num) do
-    ""
+    "1"
   end
 end
